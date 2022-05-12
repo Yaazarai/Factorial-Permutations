@@ -10,8 +10,6 @@ See: https://codereview.stackexchange.com/questions/188413/calculate-permutation
 #include <vector>
 using namespace std;
 
-using namespace std;
-
 ///<summary>Calculates the permutation of K in range of 0 to N!. (MAX of N = 20--2^61).</summary>
 vector<size_t> factorial_permutation(size_t N, uint64_t K) {
     vector<size_t> Perm;
